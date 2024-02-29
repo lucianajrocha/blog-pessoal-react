@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import Cadastro from './paginas/cadastro/Cadastro';
 import Navbar from './componentes/navbar/Navbar';
 import Home from './paginas/home/Home';
-import Footer from './componentes/footer/Footer'
+import Footer from './componentes/footer/Footer';
 import ListaTemas from './componentes/temas/listaTemas/ListaTemas';
 import FormularioTema from './componentes/temas/formularioTema/FormularioTema';
 import DeletarTema from './componentes/temas/deletarTema/DeletarTema';
