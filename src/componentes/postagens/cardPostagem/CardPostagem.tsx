@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import Postagem from '../../../models/Postagem'
 
@@ -12,7 +11,7 @@ function CardPostagem({post}: CardPostagemProps) {
       <div>
         <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
           <img src={post.usuario?.foto} className='h-12 rounded-full' alt="" />
-          <h3 className='text-lg font-bold text-center uppercase '>{post.usuario?.nome}</h3>
+          <h3 className='text-lg font-bold text-center uppercase '>{post.usuario?.nome}</h3> 
         </div>
         <div className='p-4 '>
           <h4 className='text-lg font-semibold uppercase'>{post.titulo}</h4>
@@ -36,4 +35,4 @@ function CardPostagem({post}: CardPostagemProps) {
   )
 }
 
-export default CardPostagem
+export default CardPostagem 
